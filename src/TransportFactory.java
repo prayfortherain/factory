@@ -1,4 +1,3 @@
-// Фабрика перевозок
 public class TransportFactory {
     public static Transport createTransport(String transportType) {
         return switch (transportType) {
